@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "flatulence",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "forge test",
+    "test:gas": "GAS_REPORTER_ENABLED=true forge test -vv --isolate | pnpm gas-report --stdin --save gas-report.json"
+  },
+  "devDependencies": {
+    "@latticexyz/gas-report": "^2.0.6",
+    "ds-test": "github:dapphub/ds-test#e282159d5170298eb2455a6c05280ab5a73a4ef0",
+    "forge-std": "github:foundry-rs/forge-std#74cfb77e308dd188d2f58864aaf44963ae6b88b1",
+    "solmate": "^6.2.0"
+  }
+}

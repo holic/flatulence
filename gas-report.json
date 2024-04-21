@@ -1,0 +1,20 @@
+[
+  {
+    "file": "src/Flatulence.t.sol",
+    "test": "testBigFartGas",
+    "name": "big fart",
+    "gasUsed": 1026636
+  },
+  {
+    "file": "src/Flatulence.t.sol",
+    "test": "testBiggerFartGas",
+    "name": "bigger fart",
+    "gasUsed": 10026636
+  },
+  {
+    "file": "src/Flatulence.t.sol",
+    "test": "testFartGas",
+    "name": "fart",
+    "gasUsed": 126636
+  }
+]
